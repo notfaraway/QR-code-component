@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 This is the Screenshot of desktop QR code.
-<img src="./finished-images/2nd-finished-desktop.png" width = "100px">
-<img src="./finished-images/2nd-fifnished-mobile.png" width = "100px">
+<img src="./finished-images/2nd-finished-desktop.png" width = "500px"><pr>
+<img src="./finished-images/2nd-fifnished-mobile.png" width = "500px">
 ![](./finished-images/2nd-finished-desktop.png)
 this is the Screenshot of mobile QR code.
 ![](./finished-images/2nd-fifnished-mobile.png)
