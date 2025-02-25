@@ -14,9 +14,9 @@ Tihs is a perfect first challenge from Frontend Mentor for me to practise HTML a
 
 ### Screenshot
 
-This is the Screenshot of desktop QR code.
-<img src="./finished-images/2nd-finished-desktop.png" width = "500px"><pr>
-This is the Screenshot of mobile QR code.
+This is the Screenshot of desktop QR code.<br>
+<img src="./finished-images/2nd-finished-desktop.png" width = "500px"><br>
+This is the Screenshot of mobile QR code.<br>
 <img src="./finished-images/2nd-fifnished-mobile.png" width = "500px">
 
 ## My process
