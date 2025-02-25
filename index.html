@@ -21,46 +21,92 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-      .attribution {
-        font-size: 15px;
-        text-align: center;
-        margin-top: 50px;
-        font-family: "Outfit", sans-serif;
+      @media (max-width: 600px) {
+        .attribution {
+          font-size: 15px;
+          text-align: center;
+          margin-top: 50px;
+          font-family: "Outfit", sans-serif;
+        }
+        .attribution a {
+          color: hsl(228, 45%, 44%);
+        }
+        .div1 {
+          width: 300px;
+          height: 450px;
+          background-color: white;
+          margin: auto;
+          margin-top: 100px;
+          border: 3px solid white;
+          padding: 10px;
+          border-radius: 15px;
+        }
+        .improve {
+          font-family: "Outfit", sans-serif;
+          font-size: 22px;
+          font-weight: 700;
+          color: hsl(218, 44%, 22%);
+          text-align: center;
+        }
+        .scan {
+          font-family: "Outfit", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: hsl(216, 15%, 48%);
+          text-align: center;
+        }
+        .QR-code {
+          width: 260px;
+          height: 260px;
+          border-radius: 10px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-      .div1 {
-        width: 300px;
-        height: 450px;
-        background-color: white;
-        margin: auto;
-        margin-top: 100px;
-        border: 3px solid white;
-        padding: 10px;
-        border-radius: 15px;
-      }
-      .improve {
-        font-family: "Outfit", sans-serif;
-        font-size: 22px;
-        font-weight: 700;
-        color: hsl(218, 44%, 22%);
-        text-align: center;
-      }
-      .scan {
-        font-family: "Outfit", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        color: hsl(216, 15%, 48%);
-        text-align: center;
-      }
-      .QR-code {
-        width: 260px;
-        height: 260px;
-        border-radius: 10px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+
+      @media (min-width: 601px) {
+        .attribution {
+          font-size: 15px;
+          text-align: center;
+          margin-top: 50px;
+          font-family: "Outfit", sans-serif;
+        }
+        .attribution a {
+          color: hsl(228, 45%, 44%);
+        }
+        .div1 {
+          width: 250px;
+          height: 400px;
+          background-color: white;
+          margin: auto;
+          margin-top: 100px;
+          border: 3px solid white;
+          padding: 10px;
+          border-radius: 15px;
+        }
+        .improve {
+          font-family: "Outfit", sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+          color: hsl(218, 44%, 22%);
+          text-align: center;
+        }
+        .scan {
+          font-family: "Outfit", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: hsl(216, 15%, 48%);
+          text-align: center;
+        }
+        .QR-code {
+          width: 220px;
+          height: 220px;
+          border-radius: 10px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
     </style>
   </head>
